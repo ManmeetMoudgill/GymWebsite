@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gym website</title>
+ 
+  <link rel="stylesheet" href="./cssWebsite/index.css" />
+  <link rel="stylesheet" href="./cssWebsite/newCss.css" />
+  
+  <script src="./javascriptWebsite/monday1.js"></script>
+  <script src="./javascriptWebsite/tuesday.js"></script>
+  <script src="./javascriptWebsite/sunday.js"></script>
+  <script src="./javascriptWebsite/wednesday.js"></script>
+  <script src="./javascriptWebsite/thursday.js"></script>
+  <script src="./javascriptWebsite/saturday.js"></script>
+  <script src="./javascriptWebsite/selectedListcolorChange.js"></script>
+  <script src="./javascriptWebsite/friday.js"></script>
+  <script src="./javascriptWebsite/showHeadingImage.js"></script>
+  
+  
+</head>
+
+<body>
+  <header class="headerClass">
+    <div class="logo">
+      <img class="logoImage" src="./imagesWebsite/dumbbell.png" alt="Dumbel image" />
+      <h2 class="headingLogoImage">FIT<span class="spanN">NESS</span></h2>
+    </div>
+    <nav id="navbar">
+      <ul id="unList">
+        <li><a id="a1" class="a" href="#">Home</a></li>
+        <li><a id="a2"  class="a"  href="#Classes">Classes</a></li>
+        <li><a id="a3"  class="a"  href="#ScheduleSmooth">Schedule</a></li>
+        <li><a id="a4"  class="a"  href="#trainerSmooth">Trainers</a></li>
+        <li><a id="a5"  class="a"  href="#about">About</a></li>
+        <li><a id="a6"  class="a" href="./ContactGym.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="firstSection">
+    <div class="center">
+      <h2 class="headingSection" id="heading1">Fitness & Health</h2>
+      <h2 class="headingSection" id="heading2">is a Mentality</h2>
+      <button class="btn">STRAT YOUR JOURNEY</button>
+    </div>
+  </section>
+  <section class="ScheduleSection" id="ScheduleSmooth" >
+    <div class="firstContainerS">
+      <h id="secondHeading">CLASS SCHEDULE</h>
+      <p id="paraS1">
+        Separated they live in Bookmarksgrove right at the coast of the
+        Semantics, a large
+      </p>
+      <p id="paraS2">language ocean.</p>
+    </div>
+    <div class="weeks">
+      <ul class="weelUl">
+        <li class="weekList" id="weekList0" onmousedown="mouseDown0()" onmouseup="mouseUp0()" onclick="sunday()">
+          <a class="WeekAnchor" id="WeekAnchor1 ">Sunday</a>
+        </li>
+        <li class="weekList" id="weekList1" onclick="monday()" onmousedown="mouseDown1()" onmouseup="mouseUp1()">
+          <a class="WeekAnchor" id="WeekAnchor2 ">Monday</a>
+        </li>
+        <li class="weekList" id="weekList2" onmousedown="mouseDown2()" onmouseup="mouseUp2()">
+          <a class="WeekAnchor" id="WeekAnchor3" onclick="tuesday()">Tuesday</a>
+        </li>
+        <li class="weekList" id="weekList3" onclick="wednesday()" onmousedown="mouseDown3()" onmouseup="mouseUp3()">
+          <a class="WeekAnchor" id="WeekAnchor4">wednesday</a>
+        </li>
+        <li class="weekList" id="weekList4" onclick="thursday()" onmousedown="mouseDown4()" onmouseup="mouseUp4()">
+          <a class="WeekAnchor" id="WeekAnchor5">Thursday</a>
+        </li>
+        <li class="weekList" id="weekList5" onclick="friday()" onmousedown="mouseDown5()" onmouseup="mouseUp5()">
+          <a class="WeekAnchor" id="WeekAnchor6">Friday</a>
+        </li>
+        <li class="weekList" id="weekList6" onclick="saturday()" onmousedown="mouseDown6()" onmouseup="mouseUp6()">
+          <a class="WeekAnchor" id="WeekAnchor7">Saturday</a>
+        </li>
+      </ul>
+    </div>
+    <div class="logos" id="logoJava">
+      <div class="logoInside" id="innerDivJ1">
+        <img class="logoImages" src="./imagesWebsite/doubmell.svg" alt="" />
+        <p class="paraLogo paraLogo1">06AM-7AM</p>
+        <p class="paraLogo paraLogo2">Body Building</p>
+        <p class="paraLogo paraLogo3">Manmeet Moudgill</p>
+      </div>
+      <div class="logoInside" id="innerDivJ2">
+        <img class="logoImages" src="./imagesWebsite/fit-yoga.svg" alt="" />
+        <p class="paraLogo paraLogo1">06AM-7AM</p>
+        <p class="paraLogo paraLogo2">Yoga Programs</p>
+        <p class="paraLogo paraLogo3">Navbharti Moudgill</p>
+      </div>
+      <div class="logoInside" id="innerDivJ3">
+        <img class="logoImages" src="./imagesWebsite/fit-cycling.svg" alt="" />
+        <p class="paraLogo paraLogo1">06AM-7AM</p>
+        <p class="paraLogo paraLogo2">Cycling Programs</p>
+        <p class="paraLogo paraLogo3">Jitesh Moudgill</p>
+      </div>
+      <div class="logoInside" id="innerDivJ4">
+        <img class="logoImages" src="./imagesWebsite/fit-boxing.svg" alt="" />
+        <p class="paraLogo paraLogo1">06AM-7AM</p>
+        <p class="paraLogo paraLogo2">Boxing-Fitness</p>
+        <p class="paraLogo paraLogo3">Manmeet Moudgill</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="imageSlider">
+  <div class="background">
+    <h2 id="headingSection">
+      Commit To Be Fit
+    </h2>
+    <h2 id="headingSection1">No Pain No Gain</h2>
+  </div>
+  </section>
+  <section class="programs" id="Classes">
+   <div class="firstContainerS differentPorgrams1">
+      <heading id="secondHeading">CLASS SCHEDULE</heading>
+      <p id="paraS1">
+        Separated they live in Bookmarksgrove right at the coast of the
+        Semantics, a large
+      </p>
+      <p id="paraS2">language ocean.</p>
+    </div>
+   <div class="differentPorgrams" id="differentPorgrams2">
+
+     <div class="insideDivProgram">
+       <img class="imageProgram" src="./imagesWebsite/doubmell.svg" alt="">
+       <h1 class="headingProgram">Body Combact</h1>
+       <p1 class="paraProgram colorPara"><span  id="span1">Far far away, behind the word<br></span><span  id="span2">mountains, far from the countries<br></span> <span  id="span3">Vokalia and Consonantia, there live the<br></span><span  id="span4"> blind texts.</span></p1>
+       <button class="btnInsideDivProgram">Join Now</button>
+     </div>
+
+     <div class="insideDivProgram">
+       <img  id="imageProgram1" src="./imagesWebsite/fit-yoga.svg" alt="">
+       <h1 id="headingProgram1">Yoga Program</h1>
+       <p1 id="paraProgram1" class="colorPara"><span  id="span11">Far far away, behind the word<br></span><span  id="span12">mountains, far from the countries<br></span> <span  id="span13">Vokalia and Consonantia, there live the<br></span><span  id="span14"> blind texts.</span></p1>
+       <button class="btnInsideDivProgram">Join Now</button>
+     </div>
+     <div class="insideDivProgram">
+      <img  id="imageProgram2" src="./imagesWebsite/fit-cycling.svg" alt="">
+      <h1 id="headingProgram2">Cycling Program</h1>
+      <p1 id="paraProgram2" class="colorPara"><span  id="span21">Far far away, behind the word<br></span><span  id="span22">mountains, far from the countries<br></span> <span  id="span23">Vokalia and Consonantia, there live the<br></span><span  id="span24"> blind texts.</span></p1>
+      <button class="btnInsideDivProgram">Join Now</button>
+
+     </div>
+   </div>
+   <div class="differentPorgrams">
+    <div class="insideDivProgram">
+      <img class="imageProgram" src="./imagesWebsite/fit-boxing.svg" alt="">
+      <h1 class="headingProgram">Boxing Fitness</h1>
+      <p1 class="paraProgram colorPara"><span  id="span1">Far far away, behind the word<br></span><span  id="span2">mountains, far from the countries<br></span> <span  id="span3">Vokalia and Consonantia, there live the<br></span><span  id="span4"> blind texts.</span></p1>
+      <button class="btnInsideDivProgram">Join Now</button>
+    </div>
+
+    <div class="insideDivProgram">
+      <img  id="imageProgram1" src="./imagesWebsite/fit-swimming.svg" alt="">
+      <h1 id="headingProgram1">Swimming Program</h1>
+      <p1 id="paraProgram1" class="colorPara"><span  id="span11">Far far away, behind the word<br></span><span  id="span12">mountains, far from the countries<br></span> <span  id="span13">Vokalia and Consonantia, there live the<br></span><span  id="span14"> blind texts.</span></p1>
+      <button class="btnInsideDivProgram">Join Now</button>
+    </div>
+    <div class="insideDivProgram">
+     <img  id="imageProgram2" src="./imagesWebsite/fit-massage.svg" alt="">
+     <h1 id="headingProgram2">Massage</h1>
+     <p1 id="paraProgram2" class="colorPara"><span  id="span21">Far far away, behind the word<br></span><span  id="span22">mountains, far from the countries<br></span> <span  id="span23">Vokalia and Consonantia, there live the<br></span><span  id="span24"> blind texts.</span></p1>
+     <button class="btnInsideDivProgram">Join Now</button>
+
+    </div>
+   </div>
+  </section>
+
+  <section class="trainers" id="trainerSmooth">
+    <div class="firstContainerS differentPorgrams1">
+      <heading id="secondHeading1">OUR TRAINERS</heading>
+      <p id="paraS11">
+        Separated they live in Bookmarksgrove right at the coast of the
+        Semantics, a large
+      </p>
+      <p id="paraS22">language ocean.</p>
+    </div>
+
+    <div class="trainerImages " id="trainerImages1">
+       <img  onmouseenter="ShowHeading1()" onmouseleave="CloseHeading1()" src="./imagesWebsite/trainer1.jpg" alt="" class="trainerphoto trainerphoto1" >
+       <h2 onmouseenter="ShowHeading1()"id="showHeadingName1">Jitesh Moudgill</h2>
+       <h4 onmouseenter="ShowHeading1()"id="showHeadingJob1">Fitness-Trainer</h4>
+       <div onmouseenter="ShowLogo1()"   class="logoShower" id="logoShower1">
+         <a id="anchorLogo1" href="https://www.twitter.com/"  target="_blank"><img class="logoImage" id="logoImage1" src="./imagesWebsite/twitterRoundLogo.png" alt="Twitter"></a>
+         <a id="anchorLogo1" href="https://www.instagram.com/" target="_blank"><img class="logoImage" id="logImage2" src="./imagesWebsite/instagramRoundLogo.png" alt="Instagram"></a>
+         <a href="https://www.facebook.com/"  target="_blank"><img class="logoImage" id="logoImage3 " src="./imagesWebsite/facebookLogo.png" alt="Fcaebook"></a>
+       </div>
+
+       <img  onmouseenter="ShowHeading2()" onmouseleave="CloseHeading2()" src="./imagesWebsite/trainer2.jpg" alt="" class="trainerphoto trainerphoto2">
+       <h2 onmouseenter="ShowHeading2()" id="showHeadingName2">Manmeet Moudgill</h2>
+       <h4 onmouseenter="ShowHeading2()" id="showHeadingJob2" >Crosfit-Trainer</h4> 
+       <div  onmouseenter="ShowLogo2()"  id="logoShower2">
+        <a id="anchorLogo1" href="https://www.twitter.com/"  target="_blank"><img class="logoImage" id="logoImage11" src="./imagesWebsite/twitterRoundLogo.png" alt="Twitter"></a>
+        <a id="anchorLogo1" href="https://www.instagram.com/" target="_blank"><img class="logoImage" id="logImage22" src="./imagesWebsite/instagramRoundLogo.png" alt="Instagram"></a>
+        <a href="https://www.facebook.com/"  target="_blank"><img class="logoImage" id="logoImage3 " src="./imagesWebsite/facebookLogo.png" alt="Fcaebook"></a>
+      </div>
+       
+
+       <img  onmouseenter="ShowHeading3()" onmouseleave="CloseHeading3()" src="./imagesWebsite/trainer3.jpg" alt="" class="trainerphoto trainerphoto3">
+       <h2 onmouseenter="ShowHeading3()" id="showHeadingName3">Sakshi Moudgill</h2>
+       <h4 onmouseenter="ShowHeading3()" id="showHeadingJob3">Yoga-Trainer</h4> 
+       <div  onmouseenter="ShowLogo3()"  id="logoShower3">
+        <a id="anchorLogo1" href="https://www.twitter.com/"  target="_blank"><img class="logoImage" id="logoImage11" src="./imagesWebsite/twitterRoundLogo.png" alt="Twitter"></a>
+        <a id="anchorLogo1" href="https://www.instagram.com/" target="_blank"><img class="logoImage" id="logImage22" src="./imagesWebsite/instagramRoundLogo.png" alt="Instagram"></a>
+        <a href="https://www.facebook.com/"  target="_blank"><img class="logoImage" id="logoImage3 " src="./imagesWebsite/facebookLogo.png" alt="Fcaebook"></a>
+      </div>
+       
+       
+    </div>
+
+
+    <div class="trainerImages" id="trainerImages2">
+        <img  onmouseenter="ShowHeading()" onmouseleave="CloseHeading()" src="./imagesWebsite/trainer4.jpg" alt="" class="trainerphoto">
+        <h2 onmouseenter="ShowHeading()" id="headingNascosto">Jatinder Moudgill</h2>
+        <h4 onmouseenter="ShowHeading()" id="headingCrosfit"> Crosfit-Trainer</h4>
+        <div  onmouseenter="ShowLogo()"  id="logoShowerB">
+          <a id="anchorLogo1" href="https://www.twitter.com/"  target="_blank"><img class="logoImage" id="logoImage11" src="./imagesWebsite/twitterRoundLogo.png" alt="Twitter"></a>
+          <a id="anchorLogo1" href="https://www.instagram.com/" target="_blank"><img class="logoImage" id="logImage22" src="./imagesWebsite/instagramRoundLogo.png" alt="Instagram"></a>
+          <a href="https://www.facebook.com/"  target="_blank"><img class="logoImage" id="logoImage3 " src="./imagesWebsite/facebookLogo.png" alt="Fcaebook"></a>
+        </div>
+
+
+        <img  onmouseenter="ShowHeading4()" onmouseleave="CloseHeading4()" src="./imagesWebsite/trainer5.jpg" alt="" class="trainerphoto">
+        <h2 onmouseenter="ShowHeading4()" id="showHeadingName4">Rohit Moudgill</h2>
+        <h4 onmouseenter="ShowHeading4()" id="showHeadingJob4">Boxing-Trainer</h4> 
+        <div  onmouseenter="ShowLogo4()"  id="logoShower4">
+          <a id="anchorLogo1" href="https://www.twitter.com/"  target="_blank"><img class="logoImage" id="logoImage11" src="./imagesWebsite/twitterRoundLogo.png" alt="Twitter"></a>
+          <a id="anchorLogo1" href="https://www.instagram.com/" target="_blank"><img class="logoImage" id="logImage22" src="./imagesWebsite/instagramRoundLogo.png" alt="Instagram"></a>
+          <a href="https://www.facebook.com/"  target="_blank"><img class="logoImage" id="logoImage3 " src="./imagesWebsite/facebookLogo.png" alt="Fcaebook"></a>
+        </div>
+
+
+
+        <img  onmouseenter="ShowHeading5()" onmouseleave="CloseHeading5()" src="./imagesWebsite/trainer6.jpg" alt="" class="trainerphoto">
+        <h2 onmouseenter="ShowHeading5()" id="showHeadingName5">Ravinder Moudgill</h2>
+        <h4 onmouseenter="ShowHeading5()" id="showHeadingJob5">Reiki-Trainer</h4> 
+        <div  onmouseenter="ShowLogo5()"  id="logoShower5">
+          <a id="anchorLogo1" href="https://www.twitter.com/"  target="_blank"><img class="logoImage" id="logoImage11" src="./imagesWebsite/twitterRoundLogo.png" alt="Twitter"></a>
+          <a id="anchorLogo1" href="https://www.instagram.com/" target="_blank"><img class="logoImage" id="logImage22" src="./imagesWebsite/instagramRoundLogo.png" alt="Instagram"></a>
+          <a href="https://www.facebook.com/"  target="_blank"><img class="logoImage" id="logoImage3 " src="./imagesWebsite/facebookLogo.png" alt="Fcaebook"></a>
+        </div>
+    </div>
+  </section>
+  <section id="about">
+    <div class="aboutClass">
+      <p class="paraAbout" id="paraAbout1">Website created by Manmeet Moudgill and His team</p>
+      <p class="paraAbout" id="paraAbout2">Best Fitness Website</p>
+    </div>
+    
+    
+  </section>
+  <footer id="footerSotto">
+    <p id="paraFooter">Copyright @www.manmeetFitness.com.ALL Right Reserved.</p>
+  </footer>
+</body>
+
+<script>
+  
+ 
+  var index = 0;
+  for (var index = 0; index < 10; index++) {
+    //first one
+    // let colorChange1=document.getElementById("heading1").style.color="blue";
+    let context1 = document.getElementById("heading1").innerHTML;
+    //let colorChange2=document.getElementById("heading2").style.color="skyblue";
+    let context2 = document.getElementById("heading1").innerHTML;
+
+    setInterval(function () {
+      let context1 = (document.getElementById("heading1").innerHTML =
+        "No Pain No Gain");
+      let context2 = (document.getElementById("heading2").innerHTML =
+        "Give Your Hundred Percent");
+    }, 4000);
+
+    //second one
+    let context3 = document.getElementById("heading1").innerHTML;
+    let context4 = document.getElementById("heading1").innerHTML;
+    setInterval(function () {
+      let context3 = (document.getElementById("heading1").innerHTML =
+        "Fitness & Health");
+      let context4 = (document.getElementById("heading2").innerHTML =
+        "is a Mentality");
+    }, 3000);
+  }
+
+  //for counting how many times the element has been clicked
+const element = document.getElementById("weekList5");
+
+  element.addEventListener("click", () => {
+    console.log("function is working");
+});
+
+
+
+
+/*
+  function onmouseover1(){
+  var photoContent=document.getElementById("trainerphoto1");
+  var para=document.createElement("p");
+  var innerInfo=document.createTextNode("Manmeet Moudgill");
+  para.appendChild(innerInfo);
+
+  para.id="paraImageHover";
+  para.className="paraIHover";
+  para.style.zIndex="1";
+  para.style.fontSize="large";
+  photoContent.append(para);
+  console.log(para)
+  
+ }
+ */
+</script>
+
+</html>
