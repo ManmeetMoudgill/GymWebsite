@@ -1,5 +1,41 @@
 @media (max-width:500px){
-
+.headerClass{
+width: 100%;
+}
+#navbar{
+    position: relative;
+    right: 100px;
+    top: 5px;
+    
+}
+#unList li{
+    list-style: none;
+    margin-right: 0px;
+}
+header::before {
+    content: "";
+    background: url(../imagesWebsite/boyBackground.jpg) no-repeat center center/cover;
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.9;
+   
+}
+.logoImage {
+    width: 50px;
+    height: 24px;
+}
+.logo {
+    width: 20%;
+    height: 30px;
+    margin: 10px 10px;
+}
+.headingLogoImage{
+    font-size: 1.0rem;
+    position: relative;
+    top: 0px;
+}
 }
 @media (min-width:510px)and (max-width:1000px){
 
