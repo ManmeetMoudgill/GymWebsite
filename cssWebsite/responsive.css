@@ -69,6 +69,9 @@ ul.weelUl {
     align-items: center;
     background-color: white;
 }
+h1.headingProgram {
+    font-size: 0.9rem;
+}
 p.para1Inside.paraLogo {
     margin-top: 8px;
     margin-left: 14px;
@@ -141,15 +144,54 @@ header::before {
     font-size: 0.8rem;
 }
 .insideDivProgram {
-    width: 33%;
+    width: 280px;
     height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-right: 56px;
+    margin-right: 0px;
 }
-
+.differentPorgrams {
+    display: flex;
+    position: relative;
+    top: 100px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+span#span1 {
+    position: relative;
+    left: 30px;
+    font-size: 0.7rem;
+    bottom: 11px;
+}
+span#span2 {
+    position: relative;
+    left: 0px;
+    font-size: 0.8rem;
+    bottom: 12px;
+}
+span#span3 {
+    position: relative;
+    left: 32px;
+    font-size: 0.8rem;
+    bottom: -2px;
+    bottom: 12px;
+}
+.colorPara {
+    color: #848484;
+    width: 211px;
+}
+.btnInsideDivProgram {
+    width: 80px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: #ccc;
+    position: relative;
+    right: 3px;
+    top: -19px;
+}
 }
 @media (min-width:510px)and (max-width:1000px){
 
