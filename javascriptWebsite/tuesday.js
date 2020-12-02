@@ -115,7 +115,7 @@ function tuesday() {
 
   //creating an image an appending to third inner div
   var img4 = document.createElement("img");
-  img4.src = "../imagesWebsite/fit-cycling.png";
+  img4.src = "../imagesWebsite/fit-cycling.svg";
   img4.className = "logophoto";
   document.getElementById("innerDivJ4").appendChild(img4);
 
