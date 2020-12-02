@@ -2,16 +2,117 @@
 .headerClass{
 width: 100%;
 }
-#navbar{
+
+#navbar {
     position: relative;
-    right: 100px;
-    top: 5px;
-    
+    right: 108px;
+    top: 13px;
+}
+#heading2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 44px;
+    font-size: 2.3rem;
+}
+.btn{
+    left: 56px;
+    top: 10px;
+}
+.firstContainerS {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 200px;
+}
+#paraS1{
+    width: 81%;
+    margin-top: 5px;
+}
+#paraS2 {
+   margin-top: 0px;
+}
+#heading1 {
+    margin-left: 44px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 2.3rem;
+}
+#secondHeading{
+    font-size: 2.0rem;
+}
+.imageM {
+    width: 50px;
+    height: 50px;
+}
+ul.weelUl {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 2px;
+}
+.a {
+    font-size: 1.0rem;
 }
 #unList li{
     list-style: none;
-    margin-right: 0px;
+    margin: 5px;
 }
+.weekList {
+    list-style: none;
+    margin: 0px 3.5px;
+}
+.logoInside {
+    width: 130px;
+    height: 110px;
+    margin: 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+p.para1Inside.paraLogo {
+    margin-top: 8px;
+    margin-left: 14px;
+}
+.paraLogo {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 0.7rem;
+}
+p.paraLogo.paraLogo1 {
+    text-align: center;
+    width: 100px;
+}
+.logoImages {
+    width: 40px;
+    height: 50px;
+    margin-top: 0px;
+}
+p.para3Inside.paraLogo {
+    width: 75%;
+}
+#headingSection {
+    font-size: 2.0rem;
+    color: white;
+    position: absolute;
+    top: 100x;
+    left: 46px;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+#headingSection1 {
+    font-size: 2.0rem;
+    color: white;
+    position: absolute;
+    top: 190px;
+    left:57px;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+
 header::before {
     content: "";
     background: url(../imagesWebsite/boyBackground.jpg) no-repeat center center/cover;
@@ -36,6 +137,19 @@ header::before {
     position: relative;
     top: 0px;
 }
+.WeekAnchor{
+    font-size: 0.8rem;
+}
+.insideDivProgram {
+    width: 33%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 56px;
+}
+
 }
 @media (min-width:510px)and (max-width:1000px){
 
