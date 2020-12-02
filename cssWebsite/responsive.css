@@ -83,7 +83,7 @@ p.para1Inside.paraLogo {
     text-align: center;
     width: 100px;
 }
-}
+
 p.paraLogo.paraLogo1 {
     text-align: center;
     width: 100px;
@@ -279,8 +279,5 @@ button#buttone {
 width: 40px;
 height: 50px;
 }
-
-
-@media (min-width:510px)and (max-width:1000px){
-
 }
+
