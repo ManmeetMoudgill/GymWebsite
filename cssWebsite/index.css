@@ -313,6 +313,16 @@ section.programs {
   flex-direction: column;
   margin-right: 15px;
 }
+.differentPorgrams {
+  display: flex;
+  position: relative;
+  top: 100px;
+  margin-left: 10px;
+  width: 100%;
+}
+h1.headingProgram {
+  font-size: 0rem;
+}
 
 span#span1 {
   position: relative;
@@ -367,7 +377,7 @@ span#span4 {
 }
 #imageProgram1 {
   width: 90px;
-  /* height: 132px; */
+  height: 132px;
  
 }
 
@@ -375,6 +385,7 @@ span#span4 {
 
 #imageProgram2{
   width: 90px;
+  height: 132px;
 }
 #span21{
   position: relative;
@@ -607,6 +618,7 @@ width: 100px;
 .logoImage{
   width: 50px;
   height: 50px;
+ 
 }
 .logoShower {
   display: none;
