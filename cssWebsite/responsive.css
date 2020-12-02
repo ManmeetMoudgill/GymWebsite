@@ -80,6 +80,9 @@ p.para1Inside.paraLogo {
     margin-top: 0px;
     margin-bottom: 0px;
     font-size: 0.7rem;
+    text-align: center;
+    width: 100px;
+}
 }
 p.paraLogo.paraLogo1 {
     text-align: center;
@@ -154,10 +157,19 @@ header::before {
 }
 .differentPorgrams {
     display: flex;
+    flex-wrap: wrap;
     position: relative;
-    top: 100px;
+    top: 30px;
     margin-left: 0px;
     margin-right: 0px;
+    padding-left: 13px;
+}
+
+.firstContainerS {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 200px;
+    margin-top: 60px;
 }
 span#span1 {
     position: relative;
@@ -178,6 +190,24 @@ span#span3 {
     bottom: -2px;
     bottom: 12px;
 }
+#span11 {
+    position: relative;
+    left: 37px;
+    font-size: 0.7rem;
+    bottom: 11px;
+}
+#span12 {
+    position: relative;
+    left: 8px;
+    font-size: 0.7rem;
+    bottom: 11px;
+}
+#span13 {
+    position: relative;
+    left: 43px;
+    font-size: 0.7rem;
+    bottom: 11px;
+}
 .colorPara {
     color: #848484;
     width: 211px;
@@ -192,7 +222,65 @@ span#span3 {
     right: 3px;
     top: -19px;
 }
+button#buttone {
+    position: relative;
+    top: 0px;
 }
+.insideDivProgram {
+    width: 183px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 11px;
+}
+#imageProgram1 {
+    height: 50px;
+    width: 50px;
+    margin-top: -18px;
+    
+}
+.innerDiv{
+    width: 130px;
+    height: 136px;
+}
+#innerDivJ1{
+        margin: 0px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+    
+}
+#innerDivJ2{
+    margin: 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+#innerDivJ3{
+    margin: 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+#innerDivJ4{
+    margin: 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.logophoto{
+width: 40px;
+height: 50px;
+}
+
+
 @media (min-width:510px)and (max-width:1000px){
 
 }
