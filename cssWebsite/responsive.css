@@ -331,5 +331,26 @@ button#button3 {
     position: relative;
     top: 4px;
 }
+.trainerphoto{
+    width: 130px;
+    height: 130px;
+    margin: 10px 15px;
+}
+#showHeadingJob1 {
+    font-size: 11px;
+    color: white;
+    display: inline;
+    position: absolute;
+    right: 377px;
+    top: 68px;
+}
+#showHeadingName1 {
+    font-size: 15px;
+    color: white;
+    display: inline;
+    position: absolute;
+    right: 360px;
+    top: 52px;
+}
 }
 

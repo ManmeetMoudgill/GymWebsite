@@ -328,7 +328,7 @@ span#span2 {
 }
 span#span3{
   position: relative;
-  margin-left: 0px;
+  margin-left: 35px;
   font-size: 1.2rem;
   bottom: -2px;
   
@@ -354,7 +354,7 @@ span#span4 {
 }
 #span13{
   position: relative;
-  margin-left: 0px;
+  margin-left: 44px;
   font-size: 1.2rem;
   bottom: -2px;
   
@@ -371,7 +371,28 @@ span#span4 {
  
 }
 
-
+#buttone1{
+  width: 100px;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #ccc;
+  font-size: 1.0rem;
+  position: relative;
+  top: 30px;
+  right: 8px;
+}
+.btnInsideDivProgram {
+  width: 100px;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #ccc;
+  font-size: 1.0rem;
+  position: relative;
+  top: 30px;
+  right: 8px;
+}
 
 #imageProgram2{
   width: 90px;
@@ -389,7 +410,7 @@ span#span4 {
 }
 #span23{
   position: relative;
-  margin-left: 0px;
+  margin-left: 44px;
   font-size: 1.2rem;
   bottom: -2px;
 }
