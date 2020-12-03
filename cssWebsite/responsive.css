@@ -146,25 +146,30 @@ header::before {
 .WeekAnchor{
     font-size: 0.8rem;
 }
+
 .insideDivProgram {
-    width: 280px;
-    height: 400px;
+    width: 150px;
+    height: 270px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-right: 0px;
+    margin-right: 11px;
 }
 .differentPorgrams {
     display: flex;
     flex-wrap: wrap;
     position: relative;
+    height: 287px;
     top: 30px;
     margin-left: 0px;
     margin-right: 0px;
     padding-left: 13px;
 }
-
+.imageProgram {
+    width: 40px;
+    height: 40px;
+}
 .firstContainerS {
     width: 100%;
     margin-left: 0px;
@@ -173,40 +178,40 @@ header::before {
 }
 span#span1 {
     position: relative;
-    left: 30px;
-    font-size: 0.7rem;
+    left: 35px;
+    font-size: 0.6rem;
     bottom: 11px;
 }
 span#span2 {
     position: relative;
-    left: 0px;
-    font-size: 0.8rem;
+    left: 5px;
+    font-size: 0.6rem;
     bottom: 12px;
 }
 span#span3 {
     position: relative;
-    left: 32px;
-    font-size: 0.8rem;
+    left: 43px;
+    font-size: 0.6rem;
     bottom: -2px;
     bottom: 12px;
 }
 #span11 {
     position: relative;
     left: 37px;
-    font-size: 0.7rem;
-    bottom: 11px;
+    font-size: 0.6rem;
+    bottom: 13px;
 }
 #span12 {
     position: relative;
     left: 8px;
-    font-size: 0.7rem;
-    bottom: 11px;
+    font-size: 0.6rem;
+    bottom: 15px;
 }
 #span13 {
     position: relative;
     left: 43px;
-    font-size: 0.7rem;
-    bottom: 11px;
+    font-size: 0.6rem;
+    bottom: 16px;
 }
 .colorPara {
     color: #848484;
@@ -220,21 +225,35 @@ span#span3 {
     border-color: #ccc;
     position: relative;
     right: 3px;
-    top: -7px;
+    top: -6px;
+}
+.trainers {
+    position: relative;
+    top: -40px;
+}
+#buttone1{
+    position: relative;
+    bottom: 10px;
+    width: 80px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: #ccc;
+    font-size: 16px;
+}
+#Buttone2{
+    position: relative;
+    top:-5px
 }
 button#buttone {
     position: relative;
     top: 0px;
 }
-.insideDivProgram {
-    width: 228px;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-right: 11px;
-}
+
+#imageProgram2{
+    width: 40px;
+    height: 40px;
+} 
 #imageProgram1 {
     height: 50px;
     width: 50px;
@@ -281,6 +300,36 @@ button#buttone {
 .logophoto{
 width: 40px;
 height: 50px;
+}
+#span21 {
+    position: relative;
+    left: 33px;
+    font-size: 0.6rem;
+    bottom: 8px;
+}
+h1#headingProgram1 {
+    position: relative;
+    bottom: 6px;
+}
+#span22 {
+    position: relative;
+    left: 10px;
+    font-size: 0.6rem;
+    bottom: 10px;
+}
+#span23 {
+    position: relative;
+    left: 42px;
+    font-size: 0.6rem;
+    bottom: 10px;
+}
+button#button3 {
+    position: relative;
+    top: 4px;
+}
+#button1{
+    position: relative;
+    top: 4px;
 }
 }
 
