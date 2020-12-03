@@ -190,7 +190,7 @@ span#span2 {
 }
 span#span3 {
     position: relative;
-    left: 43px;
+    left: 15px;
     font-size: 0.6rem;
     bottom: -2px;
     bottom: 12px;
@@ -209,7 +209,7 @@ span#span3 {
 }
 #span13 {
     position: relative;
-    left: 43px;
+    left: 3px;
     font-size: 0.6rem;
     bottom: 16px;
 }
@@ -231,16 +231,7 @@ span#span3 {
     position: relative;
     top: -40px;
 }
-#buttone1{
-    position: relative;
-    bottom: 10px;
-    width: 80px;
-    height: 25px;
-    border-radius: 5px;
-    border: 1px solid;
-    border-color: #ccc;
-    font-size: 16px;
-}
+
 #Buttone2{
     position: relative;
     top:-5px
@@ -319,7 +310,7 @@ h1#headingProgram1 {
 }
 #span23 {
     position: relative;
-    left: 42px;
+    left: 5px;
     font-size: 0.6rem;
     bottom: 10px;
 }
@@ -351,6 +342,29 @@ button#button3 {
     position: absolute;
     right: 360px;
     top: 52px;
+}
+.logoShower {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 39px;
+    position: absolute;
+    left: 49px;
+    top: 91px;
+}
+.buttonResponsive{
+    position: relative;
+    bottom: 0px;
+    width: 80px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: #ccc;
+    font-size: 16px;
+}
+.logoImage {
+    width: 20px;
+    height: 20px;
 }
 }
 
