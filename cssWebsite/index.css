@@ -253,8 +253,19 @@ ul.weelUl {
   transition-property: all;
   transition-duration: 1s;
   transition-timing-function: ease-in;
-
 }
+.buttonResponsive {
+    position: relative;
+    bottom: 4px;
+    width: 80px;
+    height: 25px;
+    border-radius: 5px;
+    left: 5px;
+    border: 1px solid;
+    border-color: #ccc;
+    font-size: 16px;
+}
+
 .background{
   display: flex;
   justify-content: center;
