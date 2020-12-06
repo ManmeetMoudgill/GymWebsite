@@ -1,10 +1,14 @@
-@media only screen 
-and (max-width : 500px) 
-{
+@media (max-width : 500px) and (min-width:361px){
+
     .headerClass{
     width: 100%;
     }
-
+    .center {
+        width: 600px;
+        height: 100px;
+        position: relative;
+        top: 150px;
+    }
     #navbar {
         position: relative;
         right: 108px;
@@ -24,7 +28,25 @@ and (max-width : 500px)
     .firstContainerS {
         width: 100%;
         margin-left: 0px;
-        margin-right: 200px;
+        position: relative;
+        top: 33px;
+    }
+    .differentPorgrams1 {
+        width: 100%;
+        margin-left: 0px;
+        position: relative;
+        top: 152px;
+        margin-top: 44px;
+        /* margin-bottom: 63px; */
+    }
+    div#SwimmingInsideDiv {
+        position: relative;
+        bottom: 271px;
+        left: 183px;
+    }
+    div#cyclingDivProgram {
+        position: relative;
+        bottom: 1px;
     }
     #paraS1{
         width: 81%;
@@ -154,23 +176,16 @@ and (max-width : 500px)
         flex-wrap: wrap;
         position: relative;
         height: 287px;
-        top: 30px;
+        top: 131px;
         margin-left: 0px;
         margin-right: 0px;
-        padding-left: 13px;
+        padding-left: 16px;
     }
     .imageProgram {
         width: 40px;
         height: 40px;
     }
-    .firstContainerS {
-        width: 100%;
-        margin-left: 0px;
-        margin-right: 200px;
-        margin-top: 60px;
-        position: relative;
-        top: 70px;
-    }
+    
     span#span1 {
         position: relative;
         left: 35px;
@@ -185,7 +200,7 @@ and (max-width : 500px)
     }
     span#span3 {
         position: relative;
-        left: 15px;
+        left: 40px;
         font-size: 0.6rem;
         bottom: -2px;
         bottom: 12px;
@@ -194,19 +209,19 @@ and (max-width : 500px)
         position: relative;
         left: 37px;
         font-size: 0.6rem;
-        bottom: 13px;
+        bottom: 16px;
     }
     #span12 {
         position: relative;
         left: 8px;
         font-size: 0.6rem;
-        bottom: 15px;
+        bottom: 17px;
     }
     #span13 {
         position: relative;
-        left: 3px;
+        left: 48px;
         font-size: 0.6rem;
-        bottom: 16px;
+        bottom: 17px;
     }
     .colorPara {
         color: #848484;
@@ -237,8 +252,8 @@ and (max-width : 500px)
     }
     
     #imageProgram2{
-        width: 40px;
-        height: 40px;
+        width: 50px;
+        height: 50px;
     } 
     #imageProgram1 {
         height: 50px;
@@ -280,7 +295,7 @@ and (max-width : 500px)
         background-color: white;
     }
     #logoJava {
-        margin-top: 22px;
+        margin-top: 31px;
         display: flex;
     }
     
@@ -290,25 +305,39 @@ and (max-width : 500px)
     }
     #span21 {
         position: relative;
-        left: 33px;
+        left: 41px;
         font-size: 0.6rem;
-        bottom: 8px;
+        bottom: 14px;
     }
     h1#headingProgram1 {
         position: relative;
         bottom: 6px;
+        font-size: 0.9rem;
+    }
+    h1#headingProgram2 {
+        font-size: 0.8rem;
+        position: relative;
+        bottom: 5px;
+    }
+    button#btn1 {
+        position: relative;
+        top: 0px;
+    }
+    button#btn4 {
+        position: relative;
+        top: 0px;
     }
     #span22 {
         position: relative;
-        left: 10px;
+        left: 13px;
         font-size: 0.6rem;
-        bottom: 10px;
+        bottom: 15px;
     }
     #span23 {
         position: relative;
-        left: 5px;
+        left: 50px;
         font-size: 0.6rem;
-        bottom: 10px;
+        bottom: 15px;
     }
     button#button3 {
         position: relative;
@@ -361,6 +390,17 @@ and (max-width : 500px)
     .logoImage {
         width: 20px;
         height: 20px;
+    }
+    .imageSlider::before {
+        background: url(../imagesWebsite/sectionBack3.jpg) no-repeat center center/cover;
+        content: " ";
+        position: absolute;
+        width: 100%;
+        height: 350px;
+        top: 0px;
+        left: 0px;
+        z-index: -1;
+        opacity: 0.9;
     }
     #showHeadingName2 {
         font-size: 13px;
@@ -499,7 +539,7 @@ and (max-width : 500px)
         top: 54px;
     }
     p#paraAbout1 {
-        font-size: 1.2rem;
+        font-size: 0.8rem;
         position: relative;
         top: 85px;
         color: white;
@@ -508,15 +548,17 @@ and (max-width : 500px)
         border: 2px solid black;
         border-radius: 5px;
         position: relative;
-        top: 59px;
-        height: 40px;
+        top: 0px;
+        height: 30px;
         background-color: black;
         color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     #about {
         position: relative;
-        top: 63px;
-        
+        top: 0px;
     }
     .aboutClass {
         
@@ -532,10 +574,10 @@ and (max-width : 500px)
         
     }
     #headingSection {
-        font-size: 1.5rem;
+        font-size: 2.0rem;
         color: white;
         position: absolute;
-        top: 100x;
+        top: 99px;
         left: 46px;
         cursor: pointer;
         transition-property: all;
@@ -546,8 +588,8 @@ and (max-width : 500px)
         font-size: 1.5rem;
         color: white;
         position: absolute;
-        top: 185px;
-        left:57px;
+        top: 145px;
+        left: 24px;
         cursor: pointer;
         transition-property: all;
         transition-duration: 1s;
@@ -555,11 +597,69 @@ and (max-width : 500px)
     }
     #headingSection1:hover{
         color: violet;
-        font-size: 2.0rem;
+        font-size: 2.5rem;
       }
+      .imageSlider {
+        position: relative;
+        top: 201px;
+        height: 400px;
+    }
+    section.programs {
+        position: relative;
+        top: 0px;
+        height: 800px;
+    }
     
     #headingSection:hover{
         color: violet;
-        font-size: 2.0rem;
+        font-size: 2.5rem;
       }
+      div#main {
+        position: relative;
+        top: 84px;
+        padding: 0px;
+    }
+    .differentPorgrams2 {
+        width: 100%;
+        margin-left: 0px;
+        position: relative;
+        top: 36px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+    }
+    #differentPorgrams3 {
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        height: 287px;
+        top: 74px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 17px;
+    }
+    #paraS11 {
+        font-size: 1.2rem;
+        width: 81%;
+        text-align: center;
+        margin-bottom: 0px;
+        color: #848484;
+        margin-top: 7px;
+    }
+    #paraS22 {
+        font-size: 1.2rem;
+        width: 100%;
+        text-align: center;
+        margin-top: 0px;
+        color: #848484;
+    }
+    #trainerImages1 {
+        position: relative;
+        top: 31px;
+    }
+    #trainerImages2 {
+        position: relative;
+        top: 29px;
+    }
 }
