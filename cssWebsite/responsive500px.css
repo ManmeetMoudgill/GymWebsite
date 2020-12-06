@@ -39,10 +39,14 @@
         margin-top: 44px;
         /* margin-bottom: 63px; */
     }
-    div#SwimmingInsideDiv {
+    .boxingButton {
+        width: 80px;
+        height: 25px;
+        border-radius: 2px;
+        border: 1px solid;
+        border-color: #ccc;
         position: relative;
-        bottom: 271px;
-        left: 183px;
+        font-size: 1.0rem;
     }
     div#cyclingDivProgram {
         position: relative;

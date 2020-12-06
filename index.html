@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="./cssWebsite/index.css" />
   <link rel="stylesheet" href="./cssWebsite/newCss.css" />
   <link rel="stylesheet" href="./cssWebsite/responsive400px.css">
+  <link rel="stylesheet" href="./cssWebsite/responsive500px.css">
   <script src="./javascriptWebsite/swimingClass.js"></script>
   
   
@@ -160,7 +161,7 @@
       <button class="boxingButton" id="btn4">Join Now</button>
     </div>
 
-    <div class="insideDivProgram"  >
+    <div class="insideDivProgram">
       <img  id="imageProgram1" src="./imagesWebsite/fit-swimming.svg" alt="">
       <h1 id="headingProgram1">Swimming Program</h1>
       <p1 id="paraProgram1" class="colorPara"><span  id="span11">Far far away, behind the word<br></span><span  id="span12">mountains, far from the countries<br></span> <span  id="span13" class="spanTerzo">Vokalia and Consonantia<br></span></p1>
@@ -299,12 +300,7 @@ const element = document.getElementById("weekList5");
   element.addEventListener("click", () => {
     console.log("function is working");
 });
-if(screen.width=="360"){
-var content300=document.getElementsByClassName("insideDivProgram")[4].id="SwimmingInsideDiv";
-}
-else if(screen.width=="500"){
-  var content300=document.getElementsByClassName("insideDivProgram")[4].id="";
-}
+
 
 
 
