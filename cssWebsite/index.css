@@ -243,6 +243,7 @@ ul.weelUl {
   z-index: -1;
   opacity: 0.9;
 }
+
 #headingSection {
   font-size: 3.5rem;
   color: white;
@@ -253,6 +254,14 @@ ul.weelUl {
   transition-property: all;
   transition-duration: 1s;
   transition-timing-function: ease-in;
+}
+div#boxingInsideDiv {
+  width: 150px;
+  height: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .buttonResponsive {
     position: relative;
@@ -314,17 +323,15 @@ section.programs {
   height: 90px;
 
 }
-.insideDivProgram{
-  width: 33%;
-  height: 400px;
- 
+.insideDivProgram {
+  width: 150px;
+  height: 270px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-right: 15px;
+  margin-right: 11px;
 }
-
 span#span1 {
   position: relative;
   left: 33px;
