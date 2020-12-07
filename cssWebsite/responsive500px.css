@@ -9,6 +9,14 @@
         position: relative;
         top: 150px;
     }
+    .abcHeading {
+        position: relative;
+        right: 39px;
+    }
+    .paraAbdHeading {
+        position: relative;
+        right: 40px;
+    }
     #navbar {
         position: relative;
         right: 108px;
