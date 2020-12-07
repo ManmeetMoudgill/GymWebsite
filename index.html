@@ -8,8 +8,9 @@
  
   <link rel="stylesheet" href="./cssWebsite/index.css" />
   <link rel="stylesheet" href="./cssWebsite/newCss.css" />
-  <link rel="stylesheet" href="./cssWebsite/responsive400px.css">
+  <link rel="stylesheet" href="./cssWebsite/responsive300px.css">
   <link rel="stylesheet" href="./cssWebsite/responsive500px.css">
+  <link rel="stylesheet" href="./cssWebsite/responsive400px.css">
   <script src="./javascriptWebsite/swimingClass.js"></script>
   
   
@@ -52,7 +53,7 @@
     </div>
   </section>
   <section class="ScheduleSection" id="ScheduleSmooth" >
-    <div class="firstContainerS">
+    <div class="firstContainerS" id="abc">
       <h id="secondHeading">CLASS SCHEDULE</h>
       <p id="paraS1">
         Separated they live in Bookmarksgrove right at the coast of the
@@ -122,7 +123,7 @@
   </div>
   </section>
   <section class="programs" id="Classes">
-   <div class="firstContainerS differentPorgrams1">
+   <div class="firstContainerS differentPorgrams1" id="def">
       <heading id="secondHeading">CLASS SCHEDULE</heading>
       <p id="paraS1">
         Separated they live in Bookmarksgrove right at the coast of the
@@ -177,8 +178,8 @@
    </div>
   </section>
 
-  <section class="trainers" id="trainerSmooth">
-    <div class="differentPorgrams2 firstContainers differentPorgrams1">
+  <section class="trainers" id="trainerSmooth" >
+    <div class="differentPorgrams2 firstContainers differentPorgrams1" id="ghi">
       <heading id="secondHeading1">OUR TRAINERS</heading>
       <p id="paraS11">
         Separated they live in Bookmarksgrove right at the coast of the
@@ -243,8 +244,8 @@
 
 
         <img  onmouseenter="ShowHeading5()" onmouseleave="CloseHeading5()" src="./imagesWebsite/trainer6.jpg" alt="" class="trainerphoto">
-        <h2 onmouseenter="ShowHeading5()" id="showHeadingName5">Ravinder Moudgill</h2>
-        <h4 onmouseenter="ShowHeading5()" id="showHeadingJob5">Reiki-Trainer</h4> 
+        <h2 onmouseenter="ShowHeading5()" class="showHeadingRavinder">Ravinder Moudgill</h2>
+        <h4 onmouseenter="ShowHeading5()" class="showHeadingReiki">Reiki-Trainer</h4> 
         <div  onmouseenter="ShowLogo5()"  id="logoShower5">
           <a id="anchorLogo1" href="https://www.twitter.com/"  target="_blank"><img class="logoImage" id="logoImage11" src="./imagesWebsite/twitterRoundLogo.png" alt="Twitter"></a>
           <a id="anchorLogo1" href="https://www.instagram.com/" target="_blank"><img class="logoImage" id="logImage22" src="./imagesWebsite/instagramRoundLogo.png" alt="Instagram"></a>
@@ -300,6 +301,11 @@ const element = document.getElementById("weekList5");
   element.addEventListener("click", () => {
     console.log("function is working");
 });
+if(screen.width=="500"){
+  var content=document.getElementsByClassName("showHeadingRavinder")[0].id="showHeadingName5";
+  var content2=document.getElementsByClassName("showHeadingReiki")[0].id="showHeadingJob5";
+  
+}
 
 
 

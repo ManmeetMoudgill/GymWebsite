@@ -1,824 +1,267 @@
-@media (max-width : 360px) {
+@media (max-width : 411px) and (min-width:362px) {
   
-    
-    .headerClass{
-        width: 100%;
-    }
-    
-    #navbar {
-        display: inline;
-        position: relative;
-        right: 17px;
-        bottom: 20px;
-        width: 80%;
-    }
-    #heading2 {
-        margin-top: 0px;
-        margin-bottom: 0px;
-        margin-left: 44px;
-        font-size: 1.5rem;
-    }
-    #btn3:hover{
-        background-color: black;
-        color: white;
-    }
-    .buttoneBtn3:hover{
-        background-color: black;
-        color: white;
-    }
-    #btn1 {
-        width: 81px;
-        border-radius: 20px;
-        height: 26px;
-        border: 1px;
-        position: absolute;
-        left: 42px;
-        top: 168px;
-    }
-    #btn1:hover{
-        background-color: black;
-        color: white;
-    }
-    .firstContainerS {
-        width: 100%;
-        margin-left: 0px;
-        margin-right: 200px;
-    }
-    #paraS1 {
-        width: 75%;
-        margin-top: 5px;
-        position: relative;
-        right: 5px;
-        font-size: 0.8rem;
-    }
-    #paraS2 {
-        margin-top: 0px;
-        font-size: 0.8rem;
-        position: relative;
-        right: 11px;
-    }
-    #heading1 {
-        margin-left: 44px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        font-size: 1.5rem;
-    }
-    #secondHeading {
-        font-size: 1.2rem;
-        margin-top: 20px;
-        position: relative;
-        right: 14px;
-    }
-    .imageM {
-        width: 30px;
-        height: 50px;
-    }
-    ul.weelUl {
-        display: flex;
-        margin-left: 15px;
-        padding: 0px;
-    }
-    .a {
-        font-size: 0.7rem;
-    }
-    #unList li{
-        list-style: none;
-        margin: 5px;
-    }
-    #unList {
-        display: flex;
-        margin-top: 30px;
-        padding: 0px;
-        
-    }
-    section.firstSection {
-        position: relative;
-        
-        bottom: 127px;
-    }
-    .center {
-        width: 600px;
-        height: 150px;
-        position: relative;
-        top: 133px;
-    }
-    #heading1 {
-        margin-left: 25px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        font-size: 1.0rem;
-    }
-    #heading2 {
-        margin-top: 0px;
-        margin-bottom: 0px;
-        margin-left: 44px;
-        font-size: 1.0rem;
-    }
-    .weekList {
-        list-style: none;
-        margin: 0px 3.5px;
-    }
-    .logoInside {
-        width: 162px;
-        height: 110px;
-        margin: 0px 8px;
-    }
-    h1.headingProgram {
-        font-size: 0.9rem;
-        position: relative;
-        left: 0px;
-    }
-    p.para1Inside.paraLogo {
-        margin-top: 8px;
-        margin-left: 14px;
-    }
-    .paraLogo {
-        margin-top: 0px;
-        margin-bottom: 0px;
-        font-size: 0.7rem;
-        text-align: center;
-        width: 100px;
-    }
-    
-    p.paraLogo.paraLogo1 {
-        text-align: center;
-        width: 100px;
-    }
-    .logoImages {
-        width: 30px;
-        height: 50px;
-        margin-top: 0px;
-    }
-    p.para3Inside.paraLogo {
-        width: 75%;
-    }
-    
-    #headingSection1 {
-        font-size: 2.0rem;
-        color: white;
-        position: absolute;
-        top: 190px;
-        left:57px;
-        cursor: pointer;
-        transition-property: all;
-        transition-duration: 1s;
-        transition-timing-function: ease-in;
-    }
-    
-    header::before {
-        content: "";
-        background: url(../imagesWebsite/boyBackground.jpg) no-repeat center center/cover;
-        width: 100%;
-        height: 250px;
-        position: absolute;
-        z-index: -1;
-        opacity: 0.9;
-    }
-    .logoImage {
-        width: 50px;
-        height: 24px;
-    }
-    section.ScheduleSection {
-        position: relative;
-        top: 38px;
-    }
-    .logo {
-        width: 20%;
-        height: 30px;
-        margin: 10px 10px;
-    }
-    .headingLogoImage {
-        font-size: 0.5rem;
-        position: absolute;
-        top: 26px;
-        left: 14px;
-        
-    }
-    .WeekAnchor {
-        font-size: 0.6rem;
-        color: black;
-        font-weight: bold;
-    }
-    
-    .insideDivProgram {
-        width: 150px;
-        height: 202px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        margin-left: 10px;
-        border: 2px solid white;
-    }
-    div#inside1 {
-        margin-left: 9px;
-    }
-    .difMain{
-        display: flex;
-        flex-wrap: wrap;
-        position: relative;
-        height: 287px;
-        top: 60px;
-        margin-top: 20px;
-        margin-left: 0px;
-        margin-right: 0px;
-        padding-left: 0px;
-    }
-    .differentPorgrams2 {
-        width: 100%;
-        margin-left: 0px;
-        position: relative;
-        top: 0px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items:center;
-    }
-    #differentPorgrams3 {
-        display: flex;
-        flex-wrap: wrap;
-        position: relative;
-        height: 417px;
-        margin-left: 0px;
-        margin-right: 0px;
-       
-    }
-    
-    .imageProgram {
-        width: 50px;
-        height: 50px;
-        position: relative;
-        left: 0px;
-    }
-    #firstContainerResponsive{
-        display: flex; 
-        flex-direction: column;
-        align-items: center;
-        margin-top: 0px;
-        margin-bottom: 0px;
-    }
-    span#span1 {
-        position: relative;
-        left: 22px;
-        font-size: 0.7rem;
-        bottom: 10px;
-    }
-    
-    span#span2 {
-        position: relative;
-        left: -8px;
-        font-size: 0.7rem;
-        bottom: 12px;
-    }
-    span#span3 {
-        position: relative;
-        left: 29px;
-        font-size: 0.7rem;
-        bottom: -2px;
-        bottom: 13px;
-    }
-    #span11 {
-        position: relative;
-        left: 21px;
-        font-size: 0.7rem;
-        bottom: 0px;
-    }
-    #span12 {
-        position: relative;
-        left: -9px;
-        font-size: 0.7rem;
-        bottom: 0px;
-    }
-    #span13 {
-        position: relative;
-        left: 29px;
-        font-size: 0.7rem;
-        bottom: 0px;
-    }
-    .colorPara {
-        color: #848484;
-        width: 211px;
-        position: relative;
-        
-        left: 11px;
-        
-    }
-    .btnInsideDivProgram {
-        width: 80px;
-        height: 26px;
-        border-radius: 20px;
-        border: 1px solid;
-        border-color: #ccc;
-        position: relative;
-        right: 3px;
-        top: -6px;
-    }
-    .btnInsideDivProgram:hover{
-      background-color: black;
-      color: white;
-    }
-    .trainers {
-        position: relative;
-        top: 0px;
-    }
-    div#cyclingDivProgram {
-        position: relative;
-        top: 209px;
-        right: 358px;
-    }
-    button#btn2 {
-        position: relative;
-        top: 9px;
-        border-radius: 20px;
-    }
-    button#btn2:hover{
-        background-color: black;
-        color: white;
+ul.weelUl {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 12px;
+}
+.logoInside{
+    width: 87px;
+    height: 110px;
+    margin: 0px 10px;
+}
+.innerDiv {
+    width: 88px;
+    height: 138px;
+    margin: 0px 10px;
+}
+#logoJava {
+    margin-top: 4px;
+    display: flex;
+}
+.imageSlider {
+    position: relative;
+    top: 219px;
+    height: 400px;
+}
+.insideDivProgram {
+    width: 181px;
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 11px;
+}
+div#cyclingDivProgram {
+    position: relative;
+    bottom: 60px;
+}
+#differentPorgrams3 {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    height: 287px;
+    top: 239px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 17px;
+}
+div#MessageInsideDiv {
+    position: relative;
+    bottom: 455px;
+    left: 186px;
+}
+.differentPorgrams2 {
+    width: 100%;
+    margin-left: 0px;
+    position: relative;
+    top: 147px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#trainerImages1 {
+    position: relative;
+    top: 131px;
+}
+#trainerImages2 {
+    position: relative;
+    top: 129px;
+}
+#about {
+    position: relative;
+    top: 90px;
+}
+.trainerphoto {
+    width: 110px;
+    height: 130px;
+    margin: 10px 15px;
+}
+#footerSotto {
+    border: 2px solid black;
+    border-radius: 5px;
+    position: relative;
+    top: 89px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#showHeadingName1 {
+    font-size: 12px;
+    color: white;
+    display: none;
+    position: absolute;
+    right: 305px;
+    top: 52px;
+}
+#showHeadingJob1 {
+    font-size: 9px;
+    color: white;
+    display: none;
+    position: absolute;
+    right: 318px;
+    top: 66px;
+}
+.logoShower {
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    height: 39px;
+    position: absolute;
+    left: 29px;
+    top: 87px;
+}
+#showHeadingName2 {
+    font-size: 12px;
+    color: black;
+    display: none;
+    position: absolute;
+    top: 53px;
+    left: 153px;
+}
+#showHeadingJob2 {
+    font-size: 10px;
+    color: black;
+    display: none;
+    position: absolute;
+    top: 64px;
+}
+#logoShower2 {
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    height: 66px;
+    position: absolute;
+    top: 70px;
+  
+}
+#showHeadingName3 {
+    font-size: 12px;
+    color: white;
+    display: none;
+    position: absolute;
+    top: 53px;
+    right: 21px;
+}
+#showHeadingJob3 {
+    font-size: 10px;
+    color: white;
+    display: none;
+    position: absolute;
+    top: 64px;
+    right: 37px;
+}
+#logoShower3 {
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    height: 66px;
+    position: absolute;
+    top: 71px;
+    right: 40px;
+}
+#headingNascosto {
+    font-size: 12px;
+    color: black;
+    display: none;
+    position: absolute;
+    right: 298px;
+    top: 49px;
+}
+#headingCrosfit {
+    font-size: 10px;
+    color: black;
+    display: none;
+    position: absolute;
+    right: 313px;
+    top: 61px;
+}
+#logoShowerB {
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    height: 66px;
+    position: absolute;
+    top: 68px;
+    left: 30px;
+}
+#showHeadingName4 {
+    font-size: 12px;
+    color: white;
+    display: none;
+    position: absolute;
+    top: 49px;
+    left: 165px;
+}
+#showHeadingJob4 {
+    font-size: 10px;
+    display: none;
+    color: white;
+    top: 59px;
+    position: absolute;
+}
+#logoShower4 {
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    height: 66px;
+    position: absolute;
+    top: 67px;
+    left: 176px;
+}
 
-    }
-    #Buttone2 {
-        position: relative;
-        top: -5px;
-        left: 4px;
-        border-radius: 20px;
-    }
-    #Buttone2:hover{
-        background-color: white;
-        color: white;
-    }
-    button#buttone {
-        position: relative;
-        top: 6px;
-        border-radius: 20px;
-    }
-    button#buttone:hover{
-        background-color: white;
-
-    }
-    
-    #imageProgram2 {
-        width: 50px;
-        height: 50px;
-        position: relative;
-        left: 0px;
-    }
-    #imageProgram1 {
-        height: 50px;
-        width: 50px;
-        position: relative;
-        top: 15px;
-    }
-    .innerDiv {
-        width: 158px;
-        height: 136px;
-        margin: 0px 10px;
-    }
-    #innerDivJ1{
-        
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: white;
-        
-    }
-    #innerDivJ2{
-        
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: white;
-    }
-    #innerDivJ3 {
-        margin: 0px 0px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: white;
-        position: relative;
-        left: 8px;
-    }
-    #innerDivJ4 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: white;
-        position: relative;
-        left: 16px;
-    }
-    #logoJava {
-        margin-top: 22px;
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .swiming {
-        position: relative;
-        left: 14px;
-    }
-    .logophoto{
-        width: 40px;
-        height: 50px;
-    }
-    #span21 {
-        position: relative;
-        left: 20px;
-        font-size: 0.7rem;
-        bottom: 10px;
-    }
-    h1#headingProgram1 {
-        position: relative;
-        font-size: 0.8rem;
-        top: 12px;
-    }
-    #span22 {
-        position: relative;
-        left: -9px;
-        font-size: 0.7rem;
-        bottom: 12px;
-    }    
-    #span23 {
-        position: relative;
-        left: 27px;
-        font-size: 0.7rem;
-        bottom: 13px;
-    }
-    button#button3 {
-        position: relative;
-        top: 4px;
-        left: 4px;
-        border-radius: 20px;
-    }
-    #button1{
-        position: relative;
-        top: 4px;
-        border-radius: 20px;
-    }
-    .trainerphoto {
-        width: 100px;
-        height: 120px;
-        margin: 10px 10px;
-    }
-    #showHeadingJob1 {
-        font-size: 9px;
-        color: white;
-        display: none;
-        position: absolute;
-        right: 270px;
-        top: 59px;
-    }
-    #showHeadingName1 {
-        font-size: 12px;
-        color: white;
-        display: none;
-        position: absolute;
-        right: 257px;
-        top: 46px;
-    }
-    .logoShower {
-        display: none;
-        flex-direction: row;
-        align-items: center;
-        height: 39px;
-        position: absolute;
-        left: 27px;
-        top: 74px;
-    }
-    .buttonResponsive {
-        position: relative;
-        bottom: 4px;
-        width: 80px;
-        height: 25px;
-        border-radius: 5px;
-        left: 5px;
-        border: 1px solid;
-        border-color: #ccc;
-        font-size: 16px;
-    }
-    .logoImage {
-        width: 20px;
-        height: 15px;
-    }
-    #showHeadingName2 {
-        font-size: 11px;
-        display: none;
-        color: black;
-        position: absolute;
-        top: 49px;
-        left: 132px;
-    }
-    
-    #showHeadingJob2 {
-        font-size: 10px;
-        color: black;
-        display: none;
-        position: absolute;
-        top: 58px;
-    }
-    #logoShower2 {
-        display: none;
-        flex-direction: row;
-        align-items: center;
-        /* height: 66px; */
-        position: absolute;
-        top: 61px;
-        /* bottom: 16px; */
-    }
-    #showHeadingName3 {
-        font-size: 12px;
-        color: white;
-        display: none;
-        position: absolute;
-        top: 49px;
-        right: 14px;
-    }
-    
-    #showHeadingJob3 {
-        font-size: 10px;
-        color: white;
-        display: none;
-        position: absolute;
-        top: 60px;
-        right: 32px;
-    }
-    #logoShower3 {
-        display: none;
-        flex-direction: row;
-        align-items: center;
-        /* height: 66px; */
-        position: absolute;
-        top: 62px;
-        right: 33px;
-    }
-    
-    #headingNascosto {
-        font-size: 11px;
-        color: black;
-        display: none;
-        position: absolute;
-        right: 255px;
-        top: 48px;
-    }
-    #headingCrosfit {
-        font-size: 10px;
-        color: black;
-        display: none;
-        position: absolute;
-        right: 266px;
-        top: 58px;
-    }
-    #logoShowerB {
-        display: none;
-        flex-direction: row;
-        align-items: center;
-        position: absolute;
-        top: 58px;
-        left: 26px;
-    }
-    #showHeadingName4 {
-        font-size: 12px;
-        color: white;
-        display: none;
-        position: absolute;
-        top: 48px;
-        left: 137px;
-    }
-    #showHeadingJob4 {
-        font-size: 10px;
-        display: none;
-        color: white;
-        top: 59px;
-        position: absolute;
-    }
-    #logoShower4 {
-        display: none;
-        flex-direction: row;
-        align-items: center;
-        position: absolute;
-        top: 61px;
-        left: 150px;
-    }
-    #showHeadingName5 {
-        font-size: 11px;
-        color: white;
-        position: absolute;
-        display: none;
-        width: 100%;
-        top: 50px;
-        left: 252px;
-        
-    }
-    #showHeadingJob5 {
-        display: none;
-        left: 371px;
-        font-size: 10px;
-        color: white;
-        top: 60px;
-        position: absolute;
-        width: 100%;
-        left: 268px;
-    }
-    #logoShower5 {
-        display: none;
-        flex-direction: row;
-        align-items: center;
-        position: absolute;
-        right: 34px;
-        top: 63px;
-    }
-    
-    p#paraAbout2 {
-        right: 20px;
-        font-size: 1.5rem;
-        color: white;
-        top: -8px;
-        
-    }
-    p#paraAbout1 {
-        font-size: 0.6rem;
-        position: relative;
-        top: 24px;
-        color: white;
-    }
-    #footerSotto {
-        border: 2px solid black;
-        border-radius: 5px;
-        position: relative;
-        top: -51px;
-        width: 100%;
-
-        height: 30px;
-        background-color: black;
-        color: white;
-        z-index: -1;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .aboutClass {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background: url(../imagesWebsite/GirlBackGroundTrainer.jpg) no-repeat;
-        color: Black;
-        height: 350px;
-        flex-wrap: wrap;
-        position: relative;
-        bottom: 0px;
-    }
-    #headingSection {
-        font-size: 1.5rem;
-        color: white;
-        position: absolute;
-        top: 86px;
-        left: 19px;
-        cursor: pointer;
-        transition-property: all;
-        transition-duration: 1s;
-        transition-timing-function: ease-in;
-    }
-    #headingSection1 {
-        font-size: 1.5rem;
-        color: white;
-        position: absolute;
-        top: 116px;
-        left: 42px;
-        cursor: pointer;
-        transition-property: all;
-        transition-duration: 1s;
-        transition-timing-function: ease-in;
-    }
-    #headingSection1:hover{
-        color: violet;
-        font-size: 1.7rem;
-    }
-    
-    #headingSection:hover{
-        color: violet;
-        font-size: 1.7rem;
-    }
-    .imageSlider {
-        position: relative;
-        top: 55px;
-        height: 297px;
-    }
-    .imageSlider::before {
-        background: url(../imagesWebsite/sectionBack3.jpg) no-repeat center center/cover;
-        content: " ";
-        position: absolute;
-        width: 100%;
-        height: 292px;
-        top: 0px;
-        left: 0px;
-        z-index: -1;
-        opacity: 0.9;
-    }
-    #Classes {
-        position: relative;
-        top: 50px;
-    }
-    .differentPorgrams1 {
-        position: relative;
-        top: 8px;
-        margin-top: 25px;
-    }
-    p1#paraProgram1 {
-        position: relative;
-        top: 3px;
-    }
-    div#boxingInsideDiv {
-        position: relative;
-
-        top: 11px;
-        left: 178px;
-    }
-    div#cyclingDivProgram {
-        position: relative;
-        top: 221px;
-        right: 358px;
-        
-    }
-    h1#headingProgram2 {
-        font-size: 0.9rem;
-    }
-    
-    #MessageInsideDiv {
-       
-        position: relative;
-        bottom: 196px;
-        left: 179px;
-    }
-    button#btn5 {
-        position: relative;
-        top: 6px;
-    }
-    button#btn5:hover{
-        background-color: black;
-        color: white;
-
-    }
-    .boxingButton {
-        width: 80px;
-        height: 26px;
-        border-radius: 20px;
-        border: 1px solid;
-        border-color: #ccc;
-        position: relative;
-        right: 3px;
-        bottom: 5px;
-        font-size: 1.0rem;
-    }
-    .boxingButton:hover{
-        background-color: black;
-        color: white;
-    }
-    
- 
-    #paraS11 {
-        font-size: 0.9rem;
-        width: 100%;
-        text-align: center;
-        margin-bottom: 0px;
-        color: #848484;
-        margin-left: -8px
-    }
-    #paraS22 {
-        font-size: 0.9rem;
-        width: 100%;
-        text-align: center;
-        margin-top: 10px;
-        color: #848484;
-        margin-top: 1px;
-    }
-    #trainerImages1 {
-        position: relative;
-        top: 0px;
-    }
-    #trainerImages2 {
-        position: relative;
-        top: 0px;
-    }
-    #about {
-        position: relative;
-        top: 0px;
-    }
-    #paraFooter {
-        text-align: center;
-        font-size: 0.8rem;
-        color: white;
-        /* position: relative; */
-        /* top: 14px; */
-        /* align-items: center; */
-    }
-    .differentPorgrams {
-        display: flex;
-        position: relative;
-        top: 0px;
-        margin: 0px 0px;
-        border: 2px solid white;
-    }
-    button#btn2 {
-        position: relative;
-        top: 9px;
-    }
+.showHeadingRavinder {
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    top: 49px;
+    left: 295px;
+    display: none;
+}
+.showHeadingReiki {
+    font-size: 10px;
+    color: white;
+    position: absolute;
+    top: 59px;
+    left: 314px;
+    display: none;
+}
+#logoShower5 {
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    height: 66px;
+    position: absolute;
+    right: 37px;
+    top: 65px;
+}
+.aboutClass {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(../imagesWebsite/GirlBackGroundTrainer.jpg) no-repeat;
+    color: Black;
+    height: 339px;
+    flex-wrap: wrap;
+    position: relative;
+}
+#footerSotto {
+    border: 2px solid black;
+    border-radius: 5px;
+    position: relative;
+    top: 29px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 }

@@ -295,6 +295,16 @@ ul.weelUl {
   position: relative;
   left: 49px;
 }
+.boxingButton {
+  width: 100px;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #ccc;
+  font-size: 1.0rem;
+  position: relative;
+  top: 28px;
+}
 section.programs {
   position: relative;
   top: 120px;
