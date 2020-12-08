@@ -7,13 +7,14 @@
   <title>Gym website</title>
  
   <link rel="stylesheet" href="./cssWebsite/index.css" />
-  <link rel="stylesheet" href="./cssWebsite/newCss.css" />
-  <link rel="stylesheet" href="./cssWebsite/responsive300px.css">
+  <link rel="stylesheet" href="./cssWebsite/responsive360px.css">
   <link rel="stylesheet" href="./cssWebsite/responsive500px.css">
   <link rel="stylesheet" href="./cssWebsite/responsive400px.css">
+  <link rel="stylesheet" href="./cssWebsite/newCss.css" />
+  <link rel="stylesheet" href="./cssWebsite/responsive320px.css">
+ 
   <script src="./javascriptWebsite/swimingClass.js"></script>
-  
-  
+
   
   <script src="./javascriptWebsite/monday1.js"></script>
   <script src="./javascriptWebsite/tuesday.js"></script>
@@ -36,12 +37,12 @@
     </div>
     <nav id="navbar">
       <ul id="unList">
-        <li><a id="a1" class="a" href="/">Home</a></li>
-        <li><a id="a2"  class="a"  href="#Classes">Classes</a></li>
-        <li><a id="a3"  class="a"  href="#ScheduleSmooth">Schedule</a></li>
-        <li><a id="a4"  class="a"  href="#trainerSmooth">Trainers</a></li>
-        <li><a id="a5"  class="a"  href="#about">About</a></li>
-        <li><a id="a6"  class="a" href="./ContactGym.html">Contact</a></li>
+        <li><a id="a1" class="a A1" href="/">Home</a></li>
+        <li><a id="a2"  class="a A1"  href="#Classes">Classes</a></li>
+        <li><a id="a3"  class="a A1"  href="#ScheduleSmooth">Schedule</a></li>
+        <li><a id="a4"  class="a A1"  href="#trainerSmooth">Trainers</a></li>
+        <li><a id="a5"  class="a A1"  href="#about">About</a></li>
+        <li><a id="a6"  class="a A1" href="./ContactGym.html">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -53,7 +54,7 @@
     </div>
   </section>
   <section class="ScheduleSection" id="ScheduleSmooth" >
-    <div class="firstContainerS" id="abc">
+    <div class="firstContainerS Resposive320Schedule" id="abc" >
       <h id="secondHeading" class="abcHeading">CLASS SCHEDULE</h>
       <p id="paraS1" class="paraAbdHeading">
         Separated they live in Bookmarksgrove right at the coast of the
@@ -244,8 +245,8 @@
 
 
         <img  onmouseenter="ShowHeading5()" onmouseleave="CloseHeading5()" src="./imagesWebsite/trainer6.jpg" alt="" class="trainerphoto">
-        <h2 onmouseenter="ShowHeading5()" class="showHeadingRavinder">Ravinder Moudgill</h2>
-        <h4 onmouseenter="ShowHeading5()" class="showHeadingReiki">Reiki-Trainer</h4> 
+        <h2 onmouseenter="ShowHeading5()" id="showHeadingName5" class="showHeadingRavinder">Ravinder Moudgill</h2>
+        <h4 onmouseenter="ShowHeading5()" id="showHeadingJob5" class="showHeadingReiki">Reiki-Trainer</h4> 
         <div  onmouseenter="ShowLogo5()"  id="logoShower5">
           <a id="anchorLogo1" href="https://www.twitter.com/"  target="_blank"><img class="logoImage" id="logoImage11" src="./imagesWebsite/twitterRoundLogo.png" alt="Twitter"></a>
           <a id="anchorLogo1" href="https://www.instagram.com/" target="_blank"><img class="logoImage" id="logImage22" src="./imagesWebsite/instagramRoundLogo.png" alt="Instagram"></a>
@@ -301,11 +302,7 @@ const element = document.getElementById("weekList5");
   element.addEventListener("click", () => {
     console.log("function is working");
 });
-if(screen.width=="500"){
-  var content=document.getElementsByClassName("showHeadingRavinder")[0].id="showHeadingName5";
-  var content2=document.getElementsByClassName("showHeadingReiki")[0].id="showHeadingJob5";
-  
-}
+
 
 
 

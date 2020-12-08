@@ -1,267 +1,269 @@
-@media (max-width : 411px) and (min-width:362px) {
-  
-ul.weelUl {
-    display: flex;
-    margin: 0px;
-    padding: 0px;
-    margin-left: 12px;
-}
-.logoInside{
-    width: 87px;
-    height: 110px;
-    margin: 0px 10px;
-}
-.innerDiv {
-    width: 88px;
-    height: 138px;
-    margin: 0px 10px;
-}
-#logoJava {
-    margin-top: 4px;
-    display: flex;
-}
-.imageSlider {
-    position: relative;
-    top: 219px;
-    height: 400px;
-}
-.insideDivProgram {
-    width: 181px;
-    height: 270px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-right: 11px;
-}
-div#cyclingDivProgram {
-    position: relative;
-    bottom: 60px;
-}
-#differentPorgrams3 {
-    display: flex;
-    flex-wrap: wrap;
-    position: relative;
-    height: 287px;
-    top: 239px;
-    margin-left: 0px;
-    margin-right: 0px;
-    padding-left: 17px;
-}
-div#MessageInsideDiv {
-    position: relative;
-    bottom: 455px;
-    left: 186px;
-}
-.differentPorgrams2 {
-    width: 100%;
-    margin-left: 0px;
-    position: relative;
-    top: 147px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-#trainerImages1 {
-    position: relative;
-    top: 131px;
-}
-#trainerImages2 {
-    position: relative;
-    top: 129px;
-}
-#about {
-    position: relative;
-    top: 90px;
-}
-.trainerphoto {
-    width: 110px;
-    height: 130px;
-    margin: 10px 15px;
-}
-#footerSotto {
-    border: 2px solid black;
-    border-radius: 5px;
-    position: relative;
-    top: 89px;
-    height: 30px;
-    background-color: black;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#showHeadingName1 {
-    font-size: 12px;
-    color: white;
-    display: none;
-    position: absolute;
-    right: 305px;
-    top: 52px;
-}
-#showHeadingJob1 {
-    font-size: 9px;
-    color: white;
-    display: none;
-    position: absolute;
-    right: 318px;
-    top: 66px;
-}
-.logoShower {
-    display: none;
-    flex-direction: row;
-    align-items: center;
-    height: 39px;
-    position: absolute;
-    left: 29px;
-    top: 87px;
-}
-#showHeadingName2 {
-    font-size: 12px;
-    color: black;
-    display: none;
-    position: absolute;
-    top: 53px;
-    left: 153px;
-}
-#showHeadingJob2 {
-    font-size: 10px;
-    color: black;
-    display: none;
-    position: absolute;
-    top: 64px;
-}
-#logoShower2 {
-    display: none;
-    flex-direction: row;
-    align-items: center;
-    height: 66px;
-    position: absolute;
-    top: 70px;
-  
-}
-#showHeadingName3 {
-    font-size: 12px;
-    color: white;
-    display: none;
-    position: absolute;
-    top: 53px;
-    right: 21px;
-}
-#showHeadingJob3 {
-    font-size: 10px;
-    color: white;
-    display: none;
-    position: absolute;
-    top: 64px;
-    right: 37px;
-}
-#logoShower3 {
-    display: none;
-    flex-direction: row;
-    align-items: center;
-    height: 66px;
-    position: absolute;
-    top: 71px;
-    right: 40px;
-}
-#headingNascosto {
-    font-size: 12px;
-    color: black;
-    display: none;
-    position: absolute;
-    right: 298px;
-    top: 49px;
-}
-#headingCrosfit {
-    font-size: 10px;
-    color: black;
-    display: none;
-    position: absolute;
-    right: 313px;
-    top: 61px;
-}
-#logoShowerB {
-    display: none;
-    flex-direction: row;
-    align-items: center;
-    height: 66px;
-    position: absolute;
-    top: 68px;
-    left: 30px;
-}
-#showHeadingName4 {
-    font-size: 12px;
-    color: white;
-    display: none;
-    position: absolute;
-    top: 49px;
-    left: 165px;
-}
-#showHeadingJob4 {
-    font-size: 10px;
-    display: none;
-    color: white;
-    top: 59px;
-    position: absolute;
-}
-#logoShower4 {
-    display: none;
-    flex-direction: row;
-    align-items: center;
-    height: 66px;
-    position: absolute;
-    top: 67px;
-    left: 176px;
-}
 
-.showHeadingRavinder {
-    font-size: 12px;
-    color: white;
-    position: absolute;
-    top: 49px;
-    left: 295px;
-    display: none;
-}
-.showHeadingReiki {
-    font-size: 10px;
-    color: white;
-    position: absolute;
-    top: 59px;
-    left: 314px;
-    display: none;
-}
-#logoShower5 {
-    display: none;
-    flex-direction: row;
-    align-items: center;
-    height: 66px;
-    position: absolute;
-    right: 37px;
-    top: 65px;
-}
-.aboutClass {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: url(../imagesWebsite/GirlBackGroundTrainer.jpg) no-repeat;
-    color: Black;
-    height: 339px;
-    flex-wrap: wrap;
-    position: relative;
-}
-#footerSotto {
-    border: 2px solid black;
-    border-radius: 5px;
-    position: relative;
-    top: 29px;
-    height: 30px;
-    background-color: black;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-}
+@media (max-width : 411px) and (min-width:361px) {
+  
+    ul.weelUl {
+        display: flex;
+        margin: 0px;
+        padding: 0px;
+        margin-left: 12px;
+    }
+    .logoInside{
+        width: 87px;
+        height: 110px;
+        margin: 0px 10px;
+    }
+    .innerDiv {
+        width: 88px;
+        height: 138px;
+        margin: 0px 10px;
+    }
+    #logoJava {
+        margin-top: 4px;
+        display: flex;
+    }
+    .imageSlider {
+        position: relative;
+        top: 219px;
+        height: 400px;
+    }
+    .insideDivProgram {
+        width: 181px;
+        height: 270px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-right: 11px;
+    }
+    div#cyclingDivProgram {
+        position: relative;
+        bottom: 60px;
+    }
+    #differentPorgrams3 {
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        height: 287px;
+        top: 239px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 17px;
+    }
+    div#MessageInsideDiv {
+        position: relative;
+        bottom: 455px;
+        left: 186px;
+    }
+    .differentPorgrams2 {
+        width: 100%;
+        margin-left: 0px;
+        position: relative;
+        top: 147px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #trainerImages1 {
+        position: relative;
+        top: 131px;
+    }
+    #trainerImages2 {
+        position: relative;
+        top: 129px;
+    }
+    #about {
+        position: relative;
+        top: 90px;
+    }
+    .trainerphoto {
+        width: 110px;
+        height: 130px;
+        margin: 10px 15px;
+    }
+    #footerSotto {
+        border: 2px solid black;
+        border-radius: 5px;
+        position: relative;
+        top: 89px;
+        height: 30px;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #showHeadingName1 {
+        font-size: 12px;
+        color: white;
+        display: none;
+        position: absolute;
+        right: 305px;
+        top: 52px;
+    }
+    #showHeadingJob1 {
+        font-size: 9px;
+        color: white;
+        display: none;
+        position: absolute;
+        right: 318px;
+        top: 66px;
+    }
+    .logoShower {
+        display: none;
+        flex-direction: row;
+        align-items: center;
+        height: 39px;
+        position: absolute;
+        left: 29px;
+        top: 87px;
+    }
+    #showHeadingName2 {
+        font-size: 12px;
+        color: black;
+        display: none;
+        position: absolute;
+        top: 53px;
+        left: 153px;
+    }
+    #showHeadingJob2 {
+        font-size: 10px;
+        color: black;
+        display: none;
+        position: absolute;
+        top: 64px;
+    }
+    #logoShower2 {
+        display: none;
+        flex-direction: row;
+        align-items: center;
+        height: 66px;
+        position: absolute;
+        top: 70px;
+      
+    }
+    #showHeadingName3 {
+        font-size: 12px;
+        color: white;
+        display: none;
+        position: absolute;
+        top: 53px;
+        right: 21px;
+    }
+    #showHeadingJob3 {
+        font-size: 10px;
+        color: white;
+        display: none;
+        position: absolute;
+        top: 64px;
+        right: 37px;
+    }
+    #logoShower3 {
+        display: none;
+        flex-direction: row;
+        align-items: center;
+        height: 66px;
+        position: absolute;
+        top: 71px;
+        right: 40px;
+    }
+    #headingNascosto {
+        font-size: 12px;
+        color: black;
+        display: none;
+        position: absolute;
+        right: 298px;
+        top: 49px;
+    }
+    #headingCrosfit {
+        font-size: 10px;
+        color: black;
+        display: none;
+        position: absolute;
+        right: 313px;
+        top: 61px;
+    }
+    #logoShowerB {
+        display: none;
+        flex-direction: row;
+        align-items: center;
+        height: 66px;
+        position: absolute;
+        top: 68px;
+        left: 30px;
+    }
+    #showHeadingName4 {
+        font-size: 12px;
+        color: white;
+        display: none;
+        position: absolute;
+        top: 49px;
+        left: 165px;
+    }
+    #showHeadingJob4 {
+        font-size: 10px;
+        display: none;
+        color: white;
+        top: 59px;
+        position: absolute;
+    }
+    #logoShower4 {
+        display: none;
+        flex-direction: row;
+        align-items: center;
+        height: 66px;
+        position: absolute;
+        top: 67px;
+        left: 176px;
+    }
+    
+    .showHeadingRavinder {
+        font-size: 12px;
+        color: white;
+        position: absolute;
+        top: 49px;
+        left: 295px;
+        display: none;
+    }
+    .showHeadingReiki {
+        font-size: 10px;
+        color: white;
+        position: absolute;
+        top: 59px;
+        left: 314px;
+        display: none;
+    }
+    #logoShower5 {
+        display: none;
+        flex-direction: row;
+        align-items: center;
+        height: 66px;
+        position: absolute;
+        right: 37px;
+        top: 65px;
+    }
+    .aboutClass {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: url(../imagesWebsite/GirlBackGroundTrainer.jpg) no-repeat;
+        color: Black;
+        height: 339px;
+        flex-wrap: wrap;
+        position: relative;
+    }
+    #footerSotto {
+        border: 2px solid black;
+        border-radius: 5px;
+        position: relative;
+        top: 29px;
+        height: 30px;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    }
+

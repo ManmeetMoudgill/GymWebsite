@@ -1,4 +1,5 @@
-@media (max-width : 500px) and (min-width:361px){
+
+@media (max-width : 500px) and (min-width:411px){
 
     .headerClass{
     width: 100%;
@@ -9,14 +10,7 @@
         position: relative;
         top: 150px;
     }
-    .abcHeading {
-        position: relative;
-        right: 39px;
-    }
-    .paraAbdHeading {
-        position: relative;
-        right: 40px;
-    }
+    
     #navbar {
         position: relative;
         right: 108px;
