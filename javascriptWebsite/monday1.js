@@ -28,7 +28,7 @@ function monday() {
 
   //creating an image an appending to first inner div
   var img = document.createElement("img");
-  img.src = "/copyOfGymWebsite/imagesWebsite/doubmell.svg";
+  img.src = "/GymWebsite/imagesWebsite/doubmell.svg";
   img.className = "logophoto";
   document.getElementById("innerDivJ1").appendChild(img);
 
