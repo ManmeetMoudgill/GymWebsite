@@ -29,7 +29,7 @@ function wednesday() {
 
   //creating an image an appending to first inner div
   var img = document.createElement("img");
-  img.src = "../imagesWebsite/doubmell.svg";
+  img.src = "https://github.com/ManmeetMoudgill/GymWebsite/blob/copyOfGymWebsite/imagesWebsite/doubmell.svg";
   img.className = "logophoto";
   document.getElementById("innerDivJ1").appendChild(img);
 
@@ -57,7 +57,7 @@ function wednesday() {
 
   //creating an image an appending to second inner div
   var img2 = document.createElement("img");
-  img2.src = "../imagesWebsite/fit-yoga.svg";
+  img2.src = "https://github.com/ManmeetMoudgill/GymWebsite/blob/copyOfGymWebsite/imagesWebsite/fit-yoga.svg";
   img2.className = "logophoto";
   document.getElementById("innerDivJ2").appendChild(img2);
 
@@ -85,7 +85,7 @@ function wednesday() {
 
   //creating an image an appending to third inner div
   var img3 = document.createElement("img");
-  img3.src = "../imagesWebsite/fit-boxing.svg";
+  img3.src = "https://github.com/ManmeetMoudgill/GymWebsite/blob/copyOfGymWebsite/imagesWebsite/fit-boxing.svg";
   img3.className = "logophoto";
   document.getElementById("innerDivJ3").appendChild(img3);
 
@@ -116,7 +116,7 @@ function wednesday() {
 
   //creating an image an appending to third inner div
   var img4 = document.createElement("img");
-  img4.src = "../imagesWebsite/fit-cycling.svg";
+  img4.src = "https://github.com/ManmeetMoudgill/GymWebsite/blob/copyOfGymWebsite/imagesWebsite/fit-cycling.svg";
   img4.className = "logophoto";
   document.getElementById("innerDivJ4").appendChild(img4);
 
